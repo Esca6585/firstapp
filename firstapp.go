@@ -1,10 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Esca6585/firstapp/greeting"
+)
 
 func main() {
-
-	var text string = "Hello World!"
-
 	fmt.Println(greeting.GreetingText)
 }
